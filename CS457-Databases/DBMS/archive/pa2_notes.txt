@@ -1,0 +1,5 @@
+- commands related to updating a table are lower case
+- commands in general are not case-sensitive
+- commands can span multiple lines
+- commands are delimited by a ';'
+-

@@ -1,0 +1,8 @@
+- table names are not case-sensitive
+- new command(s):
+    + from _
+        - from table_name x inner join table_name y on
+        - from table_name x left outer join table_name y on
+- command format(s)
+    from table_name x (inner | [(left | right) outer]) join table_name y
+    on (condition)
