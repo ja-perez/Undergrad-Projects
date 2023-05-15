@@ -1,0 +1,8 @@
+vendor_id	: AuthenticAMD
+model name	: AMD Ryzen 7 4700U with Radeon Graphics
+cpu cores	: 1
+Linux version 5.13.0-30-generic (buildd@lcy02-amd64-032) (gcc (Ubuntu 11.2.0-7ubuntu2) 11.2.0, GNU ld (GNU Binutils for Ubuntu) 2.37) #33-Ubuntu SMP Fri Feb 4 17:03:31 UTC 2022
+Time since last boot:	00:04:04:36
+Last boot time:			00:15:36:00
+Disk Requests made:		116682
+Number of Processes:	205

@@ -1,0 +1,26 @@
+1. What is a system call? What system calls do we implement in our c code?
+A system call is an interface between user programs and the operating system.
+We implement cd, exit, help, and the redirect system call. Along with these, we also
+implement a batch mode.
+
+2. We use execvp in our program. We could just as easily use execve. Compare
+and contrast the two. 
+Execvp takes a pointer character array and a character pointer as arguments, while
+execve also takes these two, it additionally takes another char pointer which holds
+the enviroment to the new program created by execve.
+
+3. We use kill to terminate our program. This is not a graceful way to stop
+the program. What alternative system calls are there? What would we need to consider whenever
+we called these alternatives? Why is kill easier here?
+An alternative system call is exit, which terminates the calling process and sends a signal to
+the parent process with 3 different scenarios. We would have to keep these three scenarios in
+mind and deal with each of them accordingly. Kill is easier in the sense that we send a
+specific signal to end all processes thus simplifying the state of them in the end.
+
+4. If you were to redesign this program, how could you improve it? Hint: 
+think about the issues you saw while you ran the provided executable, 
+and any ineffecient functionality or system calls.
+We could improve the redirectCommand function in order to better suite certain commands
+that can be grouped with it, such as cat. Further more I believe we could improve
+the functionality of exit function so that we can terminate the program more
+effectively without using kill.

@@ -1,0 +1,33 @@
+C Basics to Relearn:
+Input / Output
+    - File stream
+        - Writing to files
+        - Reading from files
+        - Opening/Closing files
+    - print (printf), write)
+    - reading Input (fgets(), fscanf())
+Declaring Variables
+How chars work
+How strings work
+    - String library functions. ie.
+        strtol
+        strdup
+        strcat
+        strchr
+Pointers
+    - Dynamic Allocation
+    - Managing Memory
+    - Pointer Arrays
+    - Pointer Variables
+Functions
+File stream
+Compiling in Linux
+    - Taking arguments from Command line
+
+New C functions to test:
+execvp
+linux based functions
+    - get host name
+    - get user name
+    - get current directory
+kill()
